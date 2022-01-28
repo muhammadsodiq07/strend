@@ -28,3 +28,9 @@ body {
 main {
   flex-grow: 1;
 }
+
+.container {
+  width: 1320px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
