@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --btn-back-color: #ff4800;
   --btn-back-hover: #4ac728;
@@ -28,8 +29,120 @@ body {
 main {
   flex-grow: 1;
 }
+
 .container {
   width: 1320px;
   padding: 0 10px;
   margin: 0 auto;
+}
+
+.featured {
+  background-color: #f2f6f9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.parthers {
+  padding-left: 50px;
+}
+
+.parthers__title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--primary--color);
+  margin-bottom: 10px;
+}
+
+.parthers__text {
+  width: 550px;
+  color: var(--text--color);
+  line-height: 1.8;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.parthers__img {
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+
+.parthers__item {
+  width: 230px;
+  height: 100px;
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+  padding: 25px;
+  list-style: none;
+  overflow: hidden;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.parthers__item:hover .parthers__img {
+  transform: scale(0.8);
+}
+
+.parthers__item::before {
+  content: '';
+  width: 0px;
+  border-top: 3px solid #ff4800;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease;
+}
+
+.parthers__item::after {
+  content: '';
+  height: 0px;
+  border-left: 3px solid #ff4800;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease;
+}
+
+.parthers__item:hover::before {
+  width: 50px;
+}
+
+.parthers__item:hover::after {
+  height: 50px;
+}
+
+.parthers__div::after {
+  content: '';
+  height: 0px;
+  display: inline-block;
+  border-right: 3px solid #ff4800;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+
+.parthers__item:hover .parthers__div::after {
+  height: 50px;
+}
+
+.parthers__div::before {
+  content: '';
+  width: 0px;
+  display: inline-block;
+  border-bottom: 3px solid #ff4800;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s ease;
+}
+
+.parthers__item:hover .parthers__div::before {
+  width: 50px;
+}
+
+.parthers__itemtwo {
+  padding-left: 100px;
 }
