@@ -43,3 +43,66 @@ main {
   position: absolute;
   background-image: url(../img/);
 }
+
+.email__title {
+  font-family: Dosis,sans-serif;
+  color: var(--primary--color);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.email__input {
+  display: block;
+  padding: 10px 50px;
+  width: 447px;
+  height: 45px;
+  color: #fff;
+  border: none;
+  background-color: var(--primary--color);
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-right: 35px;
+}
+
+.email__input:focus{
+  outline: none;
+}
+.email__input:focus::placeholder {
+  color: transparent;
+  transition: all 0.5s ease;
+}
+
+::placeholder {
+  color: #d5d5d5;
+  transition: all 0.5s ease;
+}
+
+.email__btn {
+  border: none;
+  padding: 0 30px;
+  line-height: 45px;
+  background-color: var(--btn-back-color);
+  border-radius: 30px;
+  transition: .5s;
+  color: #fff;
+  font-family: Dosis,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.email__btn:hover {
+  background-color: var(--btn-back-hover);
+  color: #fff;
+}
+
+.email__form {
+  margin-bottom: 10px;
+}
+
+.email__text {
+  font-size: 15px;
+  color: var(--text--color);
+  line-height: 1.8;
+}
