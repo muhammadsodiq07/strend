@@ -34,3 +34,26 @@ main {
   margin: 0 auto;
 }
 
+.offer__main {
+  
+}
+.offer__title {
+}
+.offer__text {
+}
+.offer__hero-div {
+}
+.offer__lists {
+}
+.offer__list-ul {
+}
+.offer__item {
+  padding:  10px 10px;
+  background-color: var(--btn-back-color);
+}
+.offer__img{
+  border-radius: 5px;
+}
+.offer__item-link{
+  text-decoration: none;
+}
