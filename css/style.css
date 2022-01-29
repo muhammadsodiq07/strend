@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --btn-back-color: #ff4800;
   --btn-back-hover: #4ac728;
@@ -28,8 +29,115 @@ body {
 main {
   flex-grow: 1;
 }
+
 .container {
   width: 1320px;
   padding: 0 10px;
   margin: 0 auto;
+}
+
+.stand-out {
+  background-image: url('../img/project-img.png');
+  background-repeat: no-repeat;
+  margin-top: 110px;
+  background-position: bottom bottom;
+}
+
+.stand__title {
+  font-family: 'Dosis', sans-serif;
+  padding-top: 150px;
+  position: relative;
+  top: -150px;
+  font-size: 40px;
+  font-weight: 700;
+  width: 550px;
+  color: var(--primary--color);
+}
+
+.pro-icon {
+  font-size: 35px;
+  background: linear-gradient(90deg, #dee4f3, #e7eaf6, #f0f1f9, #f8f8fc, #fff);
+  padding: 5px 10px;
+  line-height: 45px;
+  position: relative;
+  border-radius: 20px 25px 20px 40px;
+  transform: rotate(180deg);
+  transition: all 0.5s linear;
+}
+
+.pro-icon-two {
+  font-size: 35px;
+  background: linear-gradient(90deg, #dee4f3, #e7eaf6, #f0f1f9, #f8f8fc, #fff);
+  padding: 5px 10px;
+  line-height: 45px;
+  position: relative;
+  border-radius: 25px 25px 40px 20px;
+  transform: rotate(180deg);
+  transition: all 0.5s linear;
+}
+
+.hover {
+  transition: all 0.5s linear;
+  cursor: pointer;
+  margin-right: 10px;
+  position: relative;
+  left: 450px;
+}
+
+.hover:hover {
+  transition: all 0.5s linear;
+  background: var(--btn-back-color);
+  color: #fff;
+}
+
+.stand__list {
+  position: relative;
+  top: -80px;
+}
+.stand__item {
+  position: relative;
+  list-style: none;
+}
+
+.stand__item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.stand-icon1 {
+  font-size: 40px;
+  position: absolute;
+  left: 220px;
+  top: 25px;
+  color: #fff;
+  padding: 15px;
+  background-color: var(--btn-back-color);
+  border-radius: 50%;
+  transition: all 0.3s linear;
+  opacity: 0;
+  display: inline-block;
+  transform: scale(0.5);
+}
+
+.stand__item:hover .stand-icon1 {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.stancion2 {
+  position: absolute;
+  left: 210px;
+}
+
+.stanicon3 {
+  position: absolute;
+  left: 210px;
+}
+
+.stanicon4 {
+  position: absolute;
+  left: 210px;
+}
+
+.stand-icon1:hover {
+  background-color: var(--btn-back-hover);
 }
