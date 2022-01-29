@@ -33,3 +33,13 @@ main {
   margin: 0 auto;
 }
 
+#email {
+  position: relative;
+}
+
+#email::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  background-image: url(../img/);
+}
