@@ -729,7 +729,7 @@ html {
   margin-bottom: 18px;
 }
 .footer__info {
-  z-index: 1;
+  z-index: 10;
 }
 
 .footer__text {
