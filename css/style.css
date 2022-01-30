@@ -35,6 +35,7 @@ main {
   padding: 0 10px;
   margin: 0 auto;
 }
+
 /* HEADER PART DESGIN BY AKBARALI */
 
 .header {
@@ -2835,4 +2836,5 @@ main {
 .end__link:hover {
   color: var(--btn-back-color);
 }
+
 
