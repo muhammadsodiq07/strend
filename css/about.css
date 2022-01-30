@@ -35,6 +35,7 @@ main {
   padding: 0 10px;
   margin: 0 auto;
 }
+
 /* --------approach-----------Arslon_Radjabov-------------- */
 .approach{
   position: relative;
@@ -556,4 +557,138 @@ main {
   100% {
       transform: translate(0) rotate(0);
   }
+}
+
+.meet__main {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.meet__title {
+  text-align: center;
+}
+.meet__title-h2 {
+  margin: 0 auto;
+  color: var(--dollar-color);
+  font-family: Dosis,sans-serif;
+  font-size: 40px;
+  font-weight: 700; 
+}
+.meet__title-text {
+  color: var(--text--color);
+  margin: 10px auto 0px;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.meet__boxcontainer{
+  padding-top: 50px;
+  padding-left: 80px;
+}
+.meet__boxes {
+  position: relative;
+  width: 270px;
+  height: 370px;
+  padding: 0 12px;
+}
+.meet__boxes {
+  margin-right: 18px;
+}
+.meet__boxes-single-inside {
+  overflow: hidden;
+    width: 260px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 7%);
+    background-color: #fff;
+    transition: .5s;
+    text-align: center;  
+}
+.meet__boxes-img {
+  width: 260px;
+  height: 260px;
+  background-image: url('../img/meet-section/team-1.jpg');
+  background-size: cover;
+  transition: all 1s ease;
+}
+.second-img{
+  background-image: url('../img/meet-section/team-2..jpg');
+}
+.third-img{
+  background-image: url('../img/meet-section/steven.jpg');
+}
+.fourth-img{
+  background-image: url('../img/meet-section/sarah.jpg');
+}
+.meet__boxes-socials{
+  position: absolute;
+  left: 53%;
+  top: 10px;
+  transform: translateX(-50%);
+  padding: 8px 15px;
+  background-color: #fff;
+  border-radius: 35px;
+  transition: all 0.5s ease;
+  /* transform: translate(0%,0%); */
+  display: flex;
+  align-items: center;
+  z-index: 5;
+  opacity: 0; 
+}
+.meet__boxes-socials a{ 
+  font-size: 17px;
+  color: #ff4800;
+  font-size: 17px;
+  margin: 0 5px;
+  transition: all 0.5s ease;
+}
+.meet__boxes-socials a:hover{
+  transition: all 0.5s ease;
+  color: var(--btn-back-hover);
+}
+.meet__boxes-title {
+  font-size: 23px;
+  font-weight: 700;
+}
+.boxestext {
+    margin-top: 8px;
+    /* transition: .5s; */
+    font-family: Dosis,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--link-hover);
+}
+.meet__boxes-single-inside:hover .boxestext{
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.meet__boxes-content{
+  padding: 25px;
+}
+.meet__boxes-single-inside:hover .meet__boxes-content{
+  background-color: var(--btn-back-color);
+  color: #fff ;
+  transition: all 0.5s ease;
+} 
+.meet__boxes{
+  margin-bottom: 30px;
+}
+.meet__boxes-single-inside:hover .meet__boxes-socials{
+  transform: translate(-50%,100px);
+  opacity: 1;
+}
+.meet__boxes-single-inside:hover {
+  transform: translateY(-5px);
+}
+.meet__boxes-single-inside:hover .meet__boxes-content{
+  transition: all 0.5s ease;
+  background-color: var(--link-hover);
+  color: #fff;
+}
+.meet__boxes-single-inside:hover .meet__boxes-img{ 
+  transform: scale(1.2);
+}
+.meet__boxes-img-con{
+  width: 260px;
+  height: 260px;
+  overflow: hidden;
+
 }
