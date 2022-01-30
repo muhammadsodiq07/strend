@@ -25,9 +25,6 @@ body {
   flex-direction: column;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 main {
   flex-grow: 1;
@@ -38,6 +35,10 @@ main {
   margin: 0 auto;
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
 
 .header {
   position: relative;
