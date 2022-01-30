@@ -725,6 +725,10 @@ main {
   font-size: 16px;
 }
 
+
+.select:focus {
+  outline: none;
+}
 .shop__entry {
   margin-bottom: 40px;
 }
