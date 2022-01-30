@@ -11,10 +11,6 @@ xbtn.addEventListener('click', function() {
   searchbox.classList.remove('search-open');
 });
 
-
-
-
-
 window.onscroll = () => {scrollNavbar()};
 
 scrollNavbar = () => {
@@ -60,6 +56,9 @@ scrollNavbar = () => {
         element.classList.remove('header-nav__items');
     }
   }
+
+}
+
 }
 
     const links = document.querySelectorAll("#navBar a");
