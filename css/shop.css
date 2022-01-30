@@ -33,3 +33,24 @@ main {
   padding: 0 10px;
   margin: 0 auto;
 }
+
+
+.shop__text {
+  font-family: Dosis,sans-serif;
+  font-size: 16px;
+  color: #57647c;
+  line-height: 1.8;
+}
+
+.select {
+  background-color: #fff;
+  color: #57647c;
+  border-radius: 0;
+  border: none;
+  box-shadow: 0 0 29px 0 hsl(0deg 0% 40% / 10%);
+  float: unset;
+  height: unset;
+  padding: 15px 35px 15px 20px;
+  font-family: Dosis,sans-serif;
+  font-size: 16px;
+}
