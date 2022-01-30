@@ -739,6 +739,7 @@ main {
   box-shadow: 0 0 40px 3px rgb(0 0 0 / 5%);
   width: 415px;
   height: 580px;
+  cursor: pointer;
 }
 
 .shop__imgs {
@@ -753,6 +754,29 @@ main {
 }
 .shop__item:hover .shop__imgs {
   background-image: url('https://strend-vue.envytheme.com/_nuxt/img/shop-1-1.3c070e6.jpg');
+  transition: all 0.5s ease;
+}
+
+.shop__btn {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background-color: red;
+  color: #fff;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+  text-transform: uppercase;
+  font-family: Dosis,sans-serif;
+  font-weight: 600;
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.shop__btn:hover {
+  background-color: var(--btn-back-hover);
   transition: all 0.5s ease;
 }
 
