@@ -6,13 +6,340 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>services</title>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/services.css">
 </head>
 
 <body>
+  <header class="header" id="site-header">
+    <div class="lines">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
 
+    <section class="header__site" id="id-header">
+      <div class="container">
+        <div class="row middle" id="id-color">
+          <a class="header-logo-white" href="index.html"></a>
+          <nav class="header-nav" id="id-nav">
+            <ul class="header-nav__list row middle">
+
+              <li class="header-nav__item row middle">Home <i class="bx bx-chevron-down icon-down"></i>
+
+                <!-- HOME DROP DOWN PART  -->
+
+                <ul class="drop">
+                  <li class="drop__item"><a class="drop__link" href="#">Home Demo - 1</a></li>
+                  <li class="drop__item"><a class="drop__link drop-activ" href="#">Home Demo - 2</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Home Demo - 3</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Home Demo - 4</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Home Demo - 5</a></li>
+                </ul>
+
+              </li>
+              <li class="header-nav__item row middle">Pages <i class="bx bx-chevron-down icon-down"></i>
+
+                <!-- PAGES DROP DOWN PART  -->
+
+                <ul class="drop">
+                  <li class="drop__item">About Us <i class="bx bx-chevron-down icon-down"></i>
+
+                    <!-- DROP PAGES ABOUT PART  -->
+                    <ul class="drop-about">
+                      <li class="drop-about__item"><a class="drop-about__link" href="about.html">About us</a></li>
+                      <li class="drop-about__item"><a class="drop-about__link" href="about.html">About us</a></li>
+                    </ul>
+
+                  </li>
+                  <li class="drop__item"><a class="drop__link" href="#">Team</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Pricing</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Feedback</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Partner</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">FAQ</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Privacy Policy</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Terms Of Service</a></li>
+                </ul>
+              </li>
+              <li class="header-nav__item row middle">Services <i class="bx bx-chevron-down icon-down"></i>
+
+                <!-- DROP SERVICES PART  -->
+
+                <ul class="drop">
+                  <li class="drop__item"><a class="drop__link" href="services.html">Services Style One</a></li>
+                  <li class="drop__item"><a class="drop__link" href="services.html">Services Style Two</a></li>
+                  <li class="drop__item"><a class="drop__link" href="services.html">Services Style Three</a></li>
+                  <li class="drop__item"><a class="drop__link" href="services.html">Services Style Four</a></li>
+                  <li class="drop__item"><a class="drop__link" href="services.html">Services Details</a></li>
+                </ul>
+
+              </li>
+              <li class="header-nav__item row middle">Projects <i class="bx bx-chevron-down icon-down"></i>
+
+                <!-- DROP PROJECT PART  -->
+
+                <ul class="drop">
+                  <li class="drop__item"><a class="drop__link" href="project.html">Projects</a></li>
+                  <li class="drop__item"><a class="drop__link" href="project.html">Projects Details</a></li>
+                </ul>
+
+              </li>
+              <li class="header-nav__item row middle"><a class="header__link" href="shop.html">Shop</a></li>
+              <li class="header-nav__item row middle">Blog <i class="bx bx-chevron-down icon-down"></i>
+
+                <!-- DROP BLOG PART  -->
+                
+
+                
+                <ul class="drop">
+                  <li class="drop__item"><a class="drop__link" href="blog.html">Blog Grid</a></li>
+                  <li class="drop__item"><a class="drop__link" href="blog.html">Blog Right Sidebar</a></li>
+                  <li class="drop__item"><a class="drop__link" href="blog.html">Blog Details</a></li>
+
+                </ul>
+
+              </li>
+              <li class="header-nav__item"><a class="header__link" href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <ul class="header__list row middle between">
+            <li class="header__item"><a class="header-cart" href="cart.html"><span class="header__span">0</span></a>
+            </li>
+            <li class="header__item"><button class="header__search" id="id-search"><i
+                  class="bx bx-search icon-search-white"></i></button></li>
+            <li class="header__item"><a class="header__btn" href="contact.html">Schedule a Demo</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+
+      <div class="hero row">
+        <div class="hero__box">
+          <h2 class="hero__title">Services
+          </h2>
+
+          <div class="row middle">
+            <a class="hero__link" href="#">Home</a>
+            <p class="hero__page"><i class="bx bx-chevron-right icon-right"></i> Blog</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="search" id="id-search-box">
+    <div class="container">
+      <div class="search__box">
+        <form class="search__form row middle" action="https://echo.htmlacademy.ru">
+          <label for="search">
+            <input class="search__input" type="text" name="search" id="search" placeholder="Search here..." required="">
+            <button class="search__btn" type="submit"><i class="bx bx-search icon-search-btn"></i></button>
+          </label>
+        </form>
+      </div>
+      <button class="search__xbtn" id="id-xbtn"><span class="search__minus"></span><span
+          class="search__minustwo"></span></button>
+    </div>
+  </section>
+
+
+  <a class="go-header" href="#site-header"><span class="go-header-link"></span></a>
+
+
+  <main class="main-main">
+    <section class="weour">
+      <div class="weour__imgss">
+        <img class="weour__tri" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTQ5Ljg5MSUiIGlkPSJhIj48c3RvcCBzdG9wLWNvbG9yPSIjMDBFOTJCIiBvZmZzZXQ9IjAlIi8+PHN0b3Agc3RvcC1jb2xvcj0iI0NDRkZBOCIgb2Zmc2V0PSIxMDAlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggdHJhbnNmb3JtPSJyb3RhdGUoMTMyIDgxLjYyNyAxNjYuMTY0KSIgZD0iTTIgMzIzbDEwLjU5OCAxM0wyMyAzMjN6IiBzdHJva2U9InVybCgjYSkiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIgb3BhY2l0eT0iLjY1OSIvPjwvc3ZnPg==" alt="">
+        <img class="weour__ball" src="https://strend-vue.envytheme.com/_nuxt/img/shape-3.1831a66.png" alt="">
+        <img class="weour__dotblue" src="https://strend-vue.envytheme.com/_nuxt/img/dot-1.38b4f22.png" alt="">
+        <img class="weour__dotred" src="https://strend-vue.envytheme.com/_nuxt/img/dot-3.13fe417.png" alt="">
+        <img class="weourxx" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgdmlld0JveD0iMCAwIDIyIDIyIj4NCiAgPGRlZnM+DQogICAgPHN0eWxlPg0KICAgICAgLmNscy0xIHsNCiAgICAgICAgZm9udC1zaXplOiAyNXB4Ow0KICAgICAgICBmaWxsOiAjMjdlYWM4Ow0KICAgICAgICB0ZXh0LWFuY2hvcjogbWlkZGxlOw0KICAgICAgICBmb250LWZhbWlseTogUm9ib3RvOw0KICAgICAgfQ0KICAgIDwvc3R5bGU+DQogIDwvZGVmcz4NCiAgPHRleHQgaWQ9Il8iIGRhdGEtbmFtZT0iKyIgY2xhc3M9ImNscy0xIiB0cmFuc2Zvcm09Im1hdHJpeCgxLjQzNywgMS40MzQsIC0xLjQzNywgMS40MzQsIC0wLjgzMiwgMjMuMDY2KSI+PHRzcGFuIHg9IjAiPis8L3RzcGFuPjwvdGV4dD4NCjwvc3ZnPg0K" alt="">
+        <img class="weour__ballbottom" src="https://strend-vue.envytheme.com/_nuxt/img/shape-3.1831a66.png" alt="">
+        <img class="weour__center" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTQ5Ljg5MSUiIGlkPSJhIj48c3RvcCBzdG9wLWNvbG9yPSIjMDBFOTJCIiBvZmZzZXQ9IjAlIi8+PHN0b3Agc3RvcC1jb2xvcj0iI0NDRkZBOCIgb2Zmc2V0PSIxMDAlIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHBhdGggdHJhbnNmb3JtPSJyb3RhdGUoMTMyIDgxLjYyNyAxNjYuMTY0KSIgZD0iTTIgMzIzbDEwLjU5OCAxM0wyMyAzMjN6IiBzdHJva2U9InVybCgjYSkiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIgb3BhY2l0eT0iLjY1OSIvPjwvc3ZnPg==" alt="">
+      </div>
+      <div class="container">
+        <div class="weoffers">
+          <ul class="weoffers__list row middle">
+            <li class="weoffers__item">
+              <h4 class="weoffers__name">Data Analysts</h4>
+              <p class="weoffers__desc">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout.
+              </p>
+            </li>
+            <li class="weoffers__item">
+              <h4 class="weoffers__name">Data Analysts</h4>
+              <p class="weoffers__desc">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout.
+              </p>
+            </li>
+            <li class="weoffers__item">
+              <h4 class="weoffers__name">Data Analysts</h4>
+              <p class="weoffers__desc">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout.
+              </p>
+            </li>
+  
+            <li class="weoffers__item">
+              <h4 class="weoffers__name">Data Analysts</h4>
+              <p class="weoffers__desc">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout.
+              </p>
+            </li>
+  
+            <li class="weoffers__item">
+              <h4 class="weoffers__name">Data Analysts</h4>
+              <p class="weoffers__desc">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout.
+              </p>
+            </li>
+  
+            <li class="weoffers__item">
+              <h4 class="weoffers__name">Data Analysts</h4>
+              <p class="weoffers__desc">
+                It is a long established fact that a reader will be distracted by the readable content of a page when
+                looking at its layout.
+              </p>
+            </li>
+          </ul>
+          <ul class="number row middle center">
+            <li class="number__item">
+              <a class="number__link" href="#"><i class='bx bxs-chevrons-left'></i></a>
+            </li>
+            <li class="number__item">
+              <a class="number__link" href="#">1</a>
+            </li>
+            <li class="number__item">
+              <a class="number__link number__link--activ" href="#">2</a>
+            </li>
+            <li class="number__item">
+              <a class="number__link" href="#">3</a>
+            </li>
+            <li class="number__item">
+              <a class="number__link" href="#">4</a>
+            </li>
+            <li class="number__item">
+              <a class="number__link" href="#"><i class='bx bxs-chevrons-right' ></i> </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer__inner">
+        <div class="container">
+          <div class="footer__box row between">
+            <div class="footer__info">
+              <a href="index.html">
+                <img class="footer__logo" src="img/footer-logo.png" alt="footer-logo" width="150" height="39">
+              </a>
+              <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+              <ul class="social row middle">
+                <li class="social__item">
+                  <a class="social__link" href="#"><i class='icon bx bxl-facebook'></i></a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#"><i class='icon bx bxl-twitter' ></i></a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#"><i class='icon bx bxl-instagram' ></i></a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" href="#"><i class='icon bx bxl-youtube' ></i></a>
+                </li>
+              </ul>
+            </div>
+            <ul class="footer__list">
+              <h4 class="footer__servis">Services</h4>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Product Engineering</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">UX/UI Design</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Big Data Analysis</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Desktop Applications</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Mobile Applications</a>
+              </li>
+            </ul>
+            <ul class="footer__list">
+              <h4 class="footer__servis">Quick Links</h4>
+              <li class="footer__item">
+                <a class="footer__link" href="about.html">About us</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="blog.html">Blog</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="cart.html">Contact</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Support</a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">Applications</a>
+              </li>
+            </ul>
+            <ul class="footer__list">
+              <h4 class="footer__servis">Contacts</h4>
+              <li class="footer__items">
+                <span class="footer__addres">Address:</span> <span class="address">2750 Quadra Street Victoria,Canada</span>
+              </li>
+              <li class="footer__items">
+                <span class="footer__addres">Email:</span> <a class="footer__link" href="#">hello@strend.com</a>
+              </li>
+              <li class="footer__items">
+                <span class="footer__addres">Phone:</span> <a class="footer__link" href="tel:+44587154756">+44 587 154756</a>
+              </li>
+              <li class="footer__items">
+                <span class="footer__addres">Fax:</span> <a class="footer__link" href="tel:+447854578964">+44 785 4578964</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="map">
+        <img src="img/footer-map.png" alt="map" width="370" height="292">
+      </div>
+      <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </footer>
+    <section id="end" class="end">
+      <div class="end__inner">
+        <div class="container">
+          <div class="end__entry row middle between">
+            <p class="end__text">Copyright © 2021 <a href="index.html"class="active">Strend</a>. All Rights Reserved.</p>
+              <ul class="end__list row middle">
+                <li class="end__item">
+                  <a class="end__link" href="#">Privacy Policy</a>
+                </li>
+                <li class="end__item">
+                  <a class="end__link" href="#">Terms & Conditions</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
   <script src="js/main.js"></script>
 </body>
 
