@@ -26,7 +26,7 @@ scrollNavbar = () => {
     const headerbtn = document.getElementsByClassName('header__btn');
 
 
-  if (document.documentElement.scrollTop > 100) {
+  if (document.body.scrollTop > 100) {
     navBar.classList.add("header-white");
     logo[0].classList.add('header__logo');
     iconsaerch[0].classList.add('icon-search');
