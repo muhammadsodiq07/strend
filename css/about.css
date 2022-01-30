@@ -33,3 +33,258 @@ main {
   padding: 0 10px;
   margin: 0 auto;
 }
+
+/* --------approach-----------Arslon_Radjabov-------------- */
+.approach{
+  position: relative;
+  background-image: url('../img/page_section/approach-section-background.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  width: 100%;
+  position: relative;
+}
+
+.approach__tvingle {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    animation: approach_tvingle1 300s linear;
+  }
+  @keyframes approach_tvingle1 {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    50% {
+      transform: rotateZ(3600deg);
+    }
+    1000% {
+      transform: rotateZ(3600deg);
+    }
+  }
+.approach__dot {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  animation: aprroach-dot 40s linear infinite;
+  }
+  
+  @keyframes  aprroach-dot {
+    0% {
+      transform: translate(0) rotate(0);
+    }
+  
+    20% {
+        transform: translate(73px,-1px) rotate(36deg);
+    }
+    40% {
+        transform: translate(141px,72px) rotate(72deg);
+    }
+    60% {
+        transform: translate(83px,122px) rotate(108deg);
+    }
+    80% {
+        transform: translate(-40px,72px) rotate(144deg);
+    }
+    100% {
+        transform: translate(0) rotate(0);
+    }
+  }
+.approach__shape {
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0.1;
+  animation: approach_shape 1000s linear infinite;
+}
+@keyframes approach_shape {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(36000deg);
+  }
+  100% {
+    transform: rotateY(36000deg);
+  }
+}
+.approach__eks {
+      position: absolute;
+      right: 100px;
+      top: 55%;
+      animation: eks 300s linear;
+  }
+  @keyframes eks{
+      0% {
+        transform: rotateZ(0deg);
+      }
+      50% {
+        transform: rotateZ(3600deg);
+      }
+      1000% {
+        transform: rotateZ(3600deg);
+      }
+  }
+.approach__shakl {
+  opacity: 0.5;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  animation: approach__shakl 30s linear infinite;
+}
+@keyframes approach__shakl {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+      transform: translateX(100px);
+  }
+  100% {
+      transform: translateX(0px);
+  }
+  
+}
+.approach__tvingle-2 {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  animation: approach-tvingle 40s linear infinite;
+}
+@keyframes approach-tvingle {
+  0% {
+    transform: translate(0) rotate(0);
+  }
+
+  20% {
+      transform: translate(-73px,-100px) rotate(36deg);
+  }
+  40% {
+      transform: translate(141px,-72px) rotate(72deg);
+  }
+  60% {
+      transform: translate(83px,122px) rotate(108deg);
+  }
+  80% {
+      transform: translate(-40px,10px) rotate(144deg);
+  }
+  100% {
+      transform: translate(0) rotate(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.approach__main {
+  align-items: center;
+  padding: 0px 0px 110px 0px;
+}
+.approach__hero-main{
+  width: 570px;
+  margin-right: 20px;
+}
+
+.approach__hero-imgs {
+  /* right: 10px; */
+  position: relative;
+  top: 50px;
+  width: 570px;
+
+}
+.approach__hero-imgs::before{
+  background-image: url('../img/page_section/approach_hero-img.jpg');
+  width: 360px;
+  height: 300px;
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: 50px;
+}
+.approach__hero-imgs::after{
+  background-image: url('../img/page_section/approach_hero-img2.jpg');
+  width: 360px;
+  height: 300px;
+  content: '';
+  display: inline-block;
+  position: relative;
+  top: -150px;
+  left: 180px;
+}
+.approach__desc {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.approach__title {
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 18px;
+  line-height: 1.3;
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--dollar-color);
+}
+.approach__text {
+  margin-bottom: 13px;
+  color: var(--text--color);
+  line-height: 1.8;
+}
+.approach__link {
+  width: 170px;
+  text-align: center;
+  border: none;
+  line-height: normal;
+  border-radius: 30px;
+  transition: .5s;
+  padding: 10px 32px 12px;
+  position: relative;
+  z-index: 1;
+  opacity: 1!important;
+  font-size: 16px;
+  font-family: Dosis,sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0062cc;
+  margin-top: 7px; 
+}
+.approach__link:hover{
+ background-color: var(--btn-back-hover);
+
+}
+.approach__list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+.approach__item {
+  list-style: none;
+  padding: 0 12px;
+}
+.approach__title-inbox{
+  font-size: 23px;
+  font-weight: 700;
+  color: var(--dollar-color);
+  font-family: Dosis,sans-serif;
+}
+.approach__text-inbox{
+  margin-top: 13px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--text--color);
+}
