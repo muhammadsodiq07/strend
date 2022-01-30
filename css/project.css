@@ -15,7 +15,9 @@
   --link-hover: #ff4800;
   --dollar-color: #212529;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Dosis', sans-serif;
   font-family: 'Open Sans', sans-serif;
