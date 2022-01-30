@@ -1,19 +1,151 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="en"><head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>cart</title>
+  <title>Cart - Strend</title>
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="shortcut icon" href="https://strend-vue.envytheme.com/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="css/col.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/cart.css">
 </head>
 
 <body>
 
-  <script src="js/main.js"></script>
-</body>
+  <header class="header" id="site-header">
+    <div class="lines">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
 
-</html>
+    <section class="header__site" id="id-header">
+      <div class="container">
+        <div class="row middle" id="id-color">
+          <a class="header-logo-white" href="/"></a>
+          <nav class="header-nav" id="id-nav">
+            <ul class="header-nav__list row middle">
+
+              <li class="header-nav__item row middle">Home <i class="bx bx-chevron-down icon-down"></i>
+
+                <!-- HOME DROP DOWN PART  -->
+
+                <ul class="drop">
+                  <li class="drop__item"><a class="drop__link" href="#">Home Demo - 1</a></li>
+                  <li class="drop__item"><a class="drop__link drop-activ" href="#">Home Demo - 2</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Home Demo - 3</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Home Demo - 4</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Home Demo - 5</a></li>
+                </ul>
+
+              </li>
+              <li class="header-nav__item row middle">Pages <i class="bx bx-chevron-down icon-down"></i>
+
+                <!-- PAGES DROP DOWN PART  -->
+
+                <ul class="drop">
+                  <li class="drop__item">About Us <i class="bx bx-chevron-down icon-down"></i>
+
+                    <!-- DROP PAGES ABOUT PART  -->
+                    <ul class="drop-about">
+                      <li class="drop-about__item"><a class="drop-about__link" href="about.html">About us</a></li>
+                      <li class="drop-about__item"><a class="drop-about__link" href="about.html">About us</a></li>
+                    </ul>
+
+                  </li>
+                  <li class="drop__item"><a class="drop__link" href="#">Team</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Pricing</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Feedback</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Partner</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">FAQ</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Privacy Policy</a></li>
+                  <li class="drop__item"><a class="drop__link" href="#">Terms Of Service</a></li>
+                </ul>
+              </li>
+              <li class="header-nav__item row middle">Services <i class="bx bx-chevron-down icon-down"></i>
+
+                <!-- DROP SERVICES PART  -->
+
+                <ul class="drop">
+                  <li class="drop__item"><a class="drop__link" href="services.html">Services Style One</a></li>
+                  <li class="drop__item"><a class="drop__link" href="services.html">Services Style Two</a></li>
+                  <li class="drop__item"><a class="drop__link" href="services.html">Services Style Three</a></li>
+                  <li class="drop__item"><a class="drop__link" href="services.html">Services Style Four</a></li>
+                  <li class="drop__item"><a class="drop__link" href="services.html">Services Details</a></li>
+                </ul>
+
+              </li>
+              <li class="header-nav__item row middle">Projects <i class="bx bx-chevron-down icon-down"></i>
+
+                <!-- DROP PROJECT PART  -->
+
+                <ul class="drop">
+                  <li class="drop__item"><a class="drop__link" href="project.html">Projects</a></li>
+                  <li class="drop__item"><a class="drop__link" href="project.html">Projects Details</a></li>
+                </ul>
+
+              </li>
+              <li class="header-nav__item row middle"><a class="header__link" href="shop.html">Shop</a></li>
+              <li class="header-nav__item row middle">Blog <i class="bx bx-chevron-down icon-down"></i>
+
+                <!-- DROP BLOG PART  -->
+
+                <ul class="drop">
+                  <li class="drop__item"><a class="drop__link" href="blog.html">Blog Grid</a></li>
+                  <li class="drop__item"><a class="drop__link" href="blog.html">Blog Right Sidebar</a></li>
+                  <li class="drop__item"><a class="drop__link" href="blog.html">Blog Details</a></li>
+
+                </ul>
+
+              </li>
+              <li class="header-nav__item"><a class="header__link" href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <ul class="header__list row middle between">
+            <li class="header__item"><a class="header-cart" href="cart.html"><span class="header__span">0</span></a>
+            </li>
+            <li class="header__item"><button class="header__search" id="id-search"><i class="bx bx-search icon-search-white"></i></button></li>
+            <li class="header__item"><a class="header__btn" href="contact.html">Schedule a Demo</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+
+      <div class="hero row">
+        <div class="hero__box">
+          <h2 class="hero__title">Cart
+          </h2>
+
+          <div class="row middle">
+            <a class="hero__link" href="#">Home</a>
+            <p class="hero__page"><i class="bx bx-chevron-right icon-right"></i> Cart</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="search" id="id-search-box">
+    <div class="container">
+      <div class="search__box">
+        <form class="search__form row middle" action="https://echo.htmlacademy.ru">
+          <label for="search">
+            <input class="search__input" type="text" name="search" id="search" placeholder="Search here..." required="">
+            <button class="search__btn" type="submit"><i class="bx bx-search icon-search-btn"></i></button>
+          </label>
+        </form>
+      </div>
+      <button class="search__xbtn" id="id-xbtn"><span class="search__minus"></span><span class="search__minustwo"></span></button>
+    </div>
+  </section>
+
+
+  <a class="go-header" href="#site-header"><span class="go-header-link"></span></a>
+
+  <script src="js/main.js"></script>
+
+</body></html>
