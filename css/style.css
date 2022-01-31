@@ -27,7 +27,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
 }
 
 main {
@@ -93,6 +92,7 @@ main {
   font-size: 18px;
   font-weight: 600;
   color: #333;
+  cursor: pointer;
   text-transform: capitalize;
   margin: 0px  13px;
   padding: 15px 0px;
@@ -384,8 +384,8 @@ main {
   transition: 0.3s linear;
   border: none;
   font-size: 20px;
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
 }
 
 .icon-search-btn {
@@ -532,7 +532,7 @@ main {
   position: absolute;
   top: -10%;
   left: 45%;
-  width: 925px;
+  width: 820px;
   height: 530px;
   background-image: url('../img/hero-img-comp.png');
   background-repeat: no-repeat;
@@ -543,7 +543,7 @@ main {
 .hero__img {
   position: relative;
   top: 30%;
-  left: 24%;
+  left: 27%;
   object-fit: cover;
   animation: heroimg 15s linear infinite;
 }
@@ -915,6 +915,7 @@ main {
 }
 .engage {
   position: relative;
+  padding-bottom: 80px;
 }
 .engage__img {
   width: 50%;
