@@ -167,6 +167,7 @@ main {
 }
 
 .header__search {
+  cursor: pointer;
   background: none;
   border: none;
 }
@@ -1002,7 +1003,7 @@ main {
 }
 .offer__item:hover{
   background-color: var(--link-hover);
-  transition: all 0.2s ease;
+  transition: all 0.5s ease;
 }
 .offer__item:hover a{
   color: #fff;
