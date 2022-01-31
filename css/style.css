@@ -358,8 +358,10 @@ main {
   background: none;
   border: none;
   width: 86.5%;
-  padding: 15px 0px;
+  padding: 10px 0px;
   color: #000;
+  position: relative;
+  top: -5px;
 }
 
 .search__input::placeholder {
@@ -534,6 +536,7 @@ main {
   background-image: url('../img/hero-img-comp.png');
   background-repeat: no-repeat;
   background-size: 750px auto;
+  object-fit: cover;
 }
 
 .hero__img {
