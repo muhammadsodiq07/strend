@@ -524,19 +524,19 @@ main {
 
 .hero__imgbox {
   position: absolute;
-  top: -28%;
+  top: -10%;
   right: -18%;
   width: 925px;
   height: 530px;
   background-image: url('../img/hero-img-comp.png');
   background-repeat: no-repeat;
-  background-size: 924px 530px;
+  background-size: 750px auto;
 }
 
 .hero__img {
   position: relative;
-  top: 40%;
-  left: 31%;
+  top: 30%;
+  left: 24%;
   object-fit: cover;
   animation: heroimg 15s linear infinite;
 }
