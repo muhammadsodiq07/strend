@@ -27,6 +27,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 main {
@@ -530,7 +531,7 @@ main {
 .hero__imgbox {
   position: absolute;
   top: -10%;
-  right: -18%;
+  left: 45%;
   width: 925px;
   height: 530px;
   background-image: url('../img/hero-img-comp.png');
