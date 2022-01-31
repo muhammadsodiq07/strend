@@ -674,7 +674,7 @@ body {
   content: '';
   display: inline-block;
   position: relative;
-  top: 5px;
+  top: 3px;
   left: 12px;
   width: 16px;
   height: 16px;
@@ -692,7 +692,7 @@ body {
   content: '';
   display: inline-block;
   position: relative;
-  top: 5px;
+  top: 3px;
   left: -4px;
   width: 16px;
   height: 16px;
