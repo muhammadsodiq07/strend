@@ -40,7 +40,9 @@ main {
 }
 
 /* HEADER PART DESGIN BY AKBARALI */
-
+.none {
+  display: none;
+}
 .header {
   position: relative;
   background-image: url('../img/hero-bg-img.jpg');
