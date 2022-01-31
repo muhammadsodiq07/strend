@@ -1616,6 +1616,7 @@ main {
 }
 .pricing {
   padding-top: -150px;
+  padding-bottom: 80px;
   position: relative;
 }
 .pricing__img {
@@ -1666,7 +1667,7 @@ main {
 
 .pricing__ballbotton {
   position: absolute;
-  bottom: -120px;
+  bottom: -40px;
   left: -60px;
   opacity: 0.1;
   animation: prigball 1000s linear infinite;
@@ -1808,6 +1809,7 @@ main {
   box-shadow: 0 0 40px 3px rgb(0 0 0 / 5%);
   list-style-type: none;
   position: relative;
+  border-radius: 5px;
   transition: href 2s linear;
 }
 
