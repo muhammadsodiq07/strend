@@ -59,8 +59,6 @@ scrollNavbar = () => {
 
 }
 
-}
-
     const links = document.querySelectorAll("#navBar a");
 
   if (document.documentElement.scrollTop > 100) {
@@ -81,6 +79,5 @@ scrollNavbar = () => {
         element.classList.remove('text-black');
     }
   }
-}
 
 
